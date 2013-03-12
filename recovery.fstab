@@ -8,5 +8,4 @@
 /staging        emmc            /dev/block/platform/sdhci-tegra.3/by-name/USP
 /data           ext4            /dev/block/platform/sdhci-tegra.3/by-name/UDA		length=-32768
 /external_sdcard         vfat            /dev/block/platform/sdhci-tegra.2/by-num/p1
-/metadata       emmc            /dev/block/platform/sdhci-tegra.3/by-name/MDA
 /addon        	ext4            /dev/block/platform/sdhci-tegra.3/by-name/UDB
