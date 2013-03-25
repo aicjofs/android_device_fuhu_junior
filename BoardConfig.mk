@@ -52,18 +52,3 @@ TW_NO_USB_STORAGE := true
 RECOVERY_SDCARD_ON_DATA := true
 
 
-BOARD_HAS_NO_SELECT_BUTTON := true
-BOARD_SUPPRESS_EMMC_WIPE := true
-BOARD_HAS_NO_REAL_SDCARD := true
-TARGET_RECOVERY_INITRC := bootable/recovery/etc/init.rc
-# Use this flag if the board has a ext4 partition larger than 2gb
-#BOARD_HAS_LARGE_FILESYSTEM := true
-
-DEVICE_RESOLUTION := 1024x600
-TW_FLASH_FROM_STOAGE := true 
-TW_INTERNAL_STORAGE_PATH := "/data/media" 
-TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
-TW_EXTERNAL_STORAGE_PATH := "/external_sdcard"
-TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sdcard"
-TW_NO_USB_STORAGE := true
-RECOVERY_SDCARD_ON_DATA := true
